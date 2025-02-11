@@ -1,0 +1,37 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependências do projeto (não precisa ser versionada)
+node_modules/
+
+# Pastas geradas após o build (arquivos de produção)
+dist/
+dist-ssr/
+coverage/
+
+# Arquivos locais e temporários
+*.local
+*.tsbuildinfo
+
+# Configurações do Cypress (caso esteja usando para testes)
+cypress/videos/
+cypress/screenshots/
+
+# Configurações do editor (VS Code, JetBrains, Visual Studio)
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Arquivo de ambiente (senhas, chaves de API, variáveis de configuração)
+.env
